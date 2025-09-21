@@ -15,8 +15,8 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v2
       with:
-        role-to-assume: arn:aws:iam::YOUR_AWS_ACCOUNT_ID:role/GitHubActionsLambdaDeployRole
-        aws-region: ap-southeast-1
+        role-to-assume: arn:aws:iam::691595239492:role/GitHub-Lambda_Deploy
+        aws-region: ap-southeast-5
 
     - name: Zip Lambda function
       run: zip -r function.zip .
