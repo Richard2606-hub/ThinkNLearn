@@ -1,4 +1,21 @@
 import streamlit as st
+import streamlit as st
+import requests
+
+API_URL = "https://owivtumnfb.execute-api.ap-southeast-5.amazonaws.com/i"
+
+st.title("Gemini via Lambda + API Gateway")
+
+user_input = st.text_area("Ask Gemini:")
+
+if st.button("Send"):
+    resp = requests.post(API_URL, json={"input": user_input})
+    if resp.status_code == 200:
+        st.write("Gemini says:", resp.json()["reply"])
+    else:
+        st.error(f"Error {resp.status_code}: {resp.text}")
+
+
 
 # --- Streamlit Page Config ---
 st.set_page_config(page_title="Language Companion", page_icon="🌍", layout="wide")
