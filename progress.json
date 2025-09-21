@@ -1,0 +1,64 @@
+[
+  {
+    "userId": "u1",
+    "ts": 1758437312,
+    "type": "quiz",
+    "topic": "Food",
+    "score": 4,
+    "mistakes": [
+      "verb_tense"
+    ]
+  },
+  {
+    "userId": "u1",
+    "ts": 1758437339,
+    "type": "quiz",
+    "topic": "Food",
+    "score": 4,
+    "mistakes": [
+      "verb_tense"
+    ]
+  },
+  {
+    "userId": "student1",
+    "ts": 1758439428,
+    "type": "quiz",
+    "topic": "Grammar",
+    "score": 3.5,
+    "mistakes": [
+      "verb tense",
+      "prepositions"
+    ]
+  },
+  {
+    "userId": "student1",
+    "ts": 1758439428,
+    "type": "dialogue",
+    "topic": "Food",
+    "score": 4.2,
+    "mistakes": [
+      "articles"
+    ]
+  },
+  {
+    "userId": "student1",
+    "ts": 1758439462,
+    "type": "quiz",
+    "topic": "Grammar",
+    "score": 3.5,
+    "mistakes": [
+      "verb tense",
+      "prepositions"
+    ]
+  },
+  {
+    "userId": "student1",
+    "ts": 1758439462,
+    "type": "dialogue",
+    "topic": "Food",
+    "score": 4.2,
+    "mistakes": [
+      "articles"
+    ]
+  }
+]
